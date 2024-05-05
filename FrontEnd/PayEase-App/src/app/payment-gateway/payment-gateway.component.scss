@@ -1,0 +1,60 @@
+//$image2: url("../../assets/paypal-gif.gif");
+.image{
+  display: flex;
+  width: auto;
+  padding: 10px 540px;
+}
+.image2{
+  float:right;
+
+}
+
+.disclaimer2{
+  color: red;
+}
+
+.payment-gateway {
+    display: flex;
+    //justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .paypal-container {
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 5px;
+    //text-align: center;
+  
+  }
+  
+  .salary {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+  .acc {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+  
+  .info {
+    color: red;
+    margin-bottom: 20px;
+  }
+  .payment{
+    color: red;
+  }
+  
+  .back {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+ 

@@ -1,0 +1,105 @@
+<div mat-dialog-title>
+    <h1>Employee Form</h1>
+</div>
+<form [formGroup]="empForm" (ngSubmit)="onFormSubmit()">
+    <div mat-dialog-content class="content">
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Employee ID</mat-label>
+                <input matInput placeholder="Ex. 2264***" type="number" formControlName="employeeid">
+                <span class="text-danger" *ngIf="empForm.controls['employeeid'].dirty && empForm.hasError('required','employeeid')">*employeeid is required</span>
+            </mat-form-field>
+
+
+            <mat-form-field appearance="outline">
+                <mat-label>First name</mat-label>
+                <input matInput type="text" placeholder="Ex. Naveen" formControlName="firstName">
+                <span class="text-danger" *ngIf="empForm.controls['firstName'].dirty && empForm.hasError('required','firstName')">*employeeid is required</span>
+    
+            </mat-form-field>
+
+
+
+            <mat-form-field appearance="outline">
+                <mat-label>Last Name</mat-label>
+                <input matInput type="text" placeholder="Ex. Balaji" formControlName="lastName">
+                <span class="text-danger" *ngIf="empForm.controls['lastName'].dirty && empForm.hasError('required','lastName')">*employeeid is required</span>
+    
+            </mat-form-field>
+        </div>
+
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Email ID</mat-label>
+                <input matInput type="email" placeholder="Ex. test@gmail.com" formControlName="emailid">
+                <span class="text-danger" *ngIf="empForm.controls['emailid'].dirty && empForm.hasError('required','emailid')">*employeeid is required</span>
+    
+            </mat-form-field>
+
+
+            <mat-form-field appearance="outline">
+                <mat-label>Mobile NO.</mat-label>
+                <input matInput type="tel" placeholder="95******10" formControlName="mobileno">
+                <span class="text-danger" *ngIf="empForm.controls['mobileno'].dirty && empForm.hasError('required','mobileno')">*employeeid is required</span>
+    
+            </mat-form-field>
+
+
+    
+        </div>
+
+        <div class="row">
+            <mat-radio-group aria-label="Select an option" formControlName="gender">
+                <mat-label><b>Gender</b></mat-label>
+                <mat-radio-button value="male">Male</mat-radio-button>
+                <mat-radio-button value="female">Female</mat-radio-button>
+                <mat-radio-button value="others">Others</mat-radio-button>
+            </mat-radio-group>
+        </div>
+
+        <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Bank Name</mat-label>
+                <mat-select formControlName="bankname">
+                    <mat-option *ngFor="let val of bankname" [value]="val">{{val}}
+                    </mat-option>
+                 </mat-select>
+           
+           
+                </mat-form-field>
+            <mat-form-field appearance="outline">
+                <mat-label>Account NO.</mat-label>
+                <input matInput formControlName="accountno">
+                <span class="text-danger" *ngIf="empForm.controls['accountno'].dirty && empForm.hasError('required','accountno')">*employeeid is required</span>
+    
+            </mat-form-field>
+
+
+            <mat-form-field appearance="outline">
+                <mat-label>Ifsc Code</mat-label>
+                <input matInput formControlName="ifsccode">
+                <span class="text-danger" *ngIf="empForm.controls['ifsccode'].dirty && empForm.hasError('required','ifsccode')">*employeeid is required</span>
+    
+            </mat-form-field>
+
+        </div>
+        
+           
+
+            <div class="row">
+            <mat-form-field appearance="outline">
+                <mat-label>Salary</mat-label>
+                <input matInput type="number" formControlName="salary">
+                <span class="text-danger" *ngIf="empForm.controls['salary'].dirty && empForm.hasError('required','salary')">*employeeid is required</span>
+    
+                <mat-hint>In rupees</mat-hint>
+            </mat-form-field>
+        </div>
+    </div>
+
+    <div mat-dialog-actions class="action">
+        <button mat-raised-button type="button" [mat-dialog-close]="false">Cancel</button>
+        <button mat-raised-button color="primary" type="submit" [mat-dialog-close]="onFormSubmit"  [disabled]="!empForm.valid">{{data ? 'Update': 'Save'}}</button>
+    </div>
+</form>
+

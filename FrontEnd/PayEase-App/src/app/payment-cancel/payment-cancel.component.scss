@@ -1,0 +1,29 @@
+.paypalcancel-container {
+    background-color: rgb(245, 49, 49);
+    color: white;
+    text-align: center;
+    padding: 20px;
+  
+    .cancellogo {
+      margin-bottom: 50px;
+  
+      img {
+        width: 100px;
+        height: 100px;
+        ;
+      }
+    }
+  
+    .message,
+    .paymentcancelled {
+      margin-bottom: 10px;
+    }
+  
+    .ok {
+      background-color: rgb(12, 1, 1);
+      color: rgb(249, 255, 249);
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+  }

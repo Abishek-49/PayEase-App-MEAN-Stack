@@ -1,0 +1,67 @@
+<!-- <p>payment-gateway works!</p> -->
+
+ <div class="image">
+<img src="../../assets/logo-1_753eae9.png">
+</div> 
+
+
+<div class="paypal-container">
+    <div class="salary"> 
+        
+        Salary to be credited : <br><br>
+       <h2>RS.{{emp}} /- only ---- TO ---- {{fname}} {{lname}}</h2>
+
+    </div>
+    <div class="acc">
+        
+        Payee bank details :    <br><br>
+        
+      <h2> Acc No = {{acc}}  --------  IFSC Code = {{code}}</h2>
+        
+    </div>
+    <div>
+
+    <div class="image2">
+        
+
+    <img src="../../assets/paypal-logo.gif">
+
+    </div>
+
+    
+    <div class="info">
+
+        <h3>(Please do not Refresh the browser till the transaction complete Successfully)</h3>
+        
+      
+        <br>
+
+    </div>
+
+
+    <div class="disclaimer1">
+        <p>*Disclaimer*</p>
+        <p>(*NOTE: Successful payment on the Website will require the invoice transaction id number,
+         date and details of the PayEase contact person.
+         Please have this information ready after processing the payment in the Website. 
+          Payments made using the Website may ordinarily take 2 business days to reach PayEase,
+          and will be recorded by PayEase only as on the date they are fully received by PayEase from BillDesk.
+          A business day shall end at 16:00 hrs - Monday to Friday (excluding weekends and public holidays)).
+        </p>
+        </div>
+
+        <div class ="disclaimer2">
+        <p>----Kindly read the disclaimer and then,----</p> <br>
+        <p>----PAY----</p>
+        </div>
+      
+        <div class ="payment">
+   <h1 #paymentRef></h1>
+   <p>If you click cancel,your payment may fail !! </p>
+    <button class="back" (click)="cancel()">cancel</button>
+
+    </div>
+
+    </div> 
+
+       

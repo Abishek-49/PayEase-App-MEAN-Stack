@@ -1,0 +1,26 @@
+$logo: url("../../assets/logo-1_753eae9.png");
+
+.logo{
+	border: none;
+	width: 500px;
+	padding: 0px 600px 0px 0px;
+	position: absolute;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.main-body {
+  padding-top: 50px;
+  margin: 0 auto;
+
+  mat-form-field {
+    width: 100%;
+  }
+}
+
+.action {
+  display: flex;
+  gap: 5px;
+}
