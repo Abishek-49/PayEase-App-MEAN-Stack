@@ -4,6 +4,10 @@ https://github.com/Abishek-49/Portfolio-Web-App/UI/assets/HandsOn Projects/PayEa
 
 [SETUP]
 
+
+Uploading PayEase-App.mp4…
+
+
 [Front-End]
 Used Angular 15 for the frontend, First create a new angular project ng new front_End
 
