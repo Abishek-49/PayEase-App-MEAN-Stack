@@ -1,6 +1,7 @@
 # Video Preview of the Project
 
-[Click here to watch the project video](https://github.com/Abishek-49/PayEase-App-MEAN-Stack/FrontEnd/PayEase-App/src/assets/PayEase-App.mp4)
+[Watch the project video](https://raw.githubusercontent.com/Abishek-49/PayEase-App-MEAN-Stack/main/FrontEnd/PayEase-App/src/assets/PayEase-App.mp4)
+
 
 
 [SETUP]
