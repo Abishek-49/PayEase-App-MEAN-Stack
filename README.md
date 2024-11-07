@@ -1,6 +1,6 @@
 #Video Preview of the Project
 
-https://github.com/Abishek-49/Portfolio-Web-App/UI/assets/HandsOn Projects/PayEase-App.mp4
+https://github.com/Abishek-49/Portfolio-Web-App/UI/assets/HandsOn Projects
 
 [SETUP]
 
