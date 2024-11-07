@@ -1,29 +1,44 @@
-[SETUP]
+# Project Setup Instructions
 
-[Front-End]
-Used Angular 15 for the frontend, First create a new angular project ng new front_End
+## Front-End
 
-[Dependencies to install]
+1. **Used Angular 15 for the frontend**
+   - First, create a new Angular project:
+     ng new front_End
 
-ng add @angular/material
-npm i ng-angular-popup --force
-npm i ng-confirm-box --force
-Start the server ng s -o
+2. **Dependencies to install**:
+   - Add Angular Material:
+     ng add @angular/material
 
-[Back-End]
+   - Install `ng-angular-popup`:
+     npm i ng-angular-popup --force
 
-[Technology Used]
-nodejs
-mongodb
-expressjs
+   - Install `ng-confirm-box`:
+     npm i ng-confirm-box --force
 
-[Dependencies to install]
-npm init
-npm install express 
-npm install mongodb
-npm install cors
-npm install mongoose
-npm install body-parser
+3. **Start the server**:
+   ng s -o
 
-Download mongodb compass and mongodb shell to store the database 
-[https://www.mongodb.com/try/download/community https://www.mongodb.com/try/download/shell]
+## Back-End
+
+### Technology Used
+- Node.js
+- MongoDB
+- Express.js
+
+### Dependencies to install
+1. Initialize the project:
+   npm init
+
+2. Install necessary dependencies:
+   npm install express
+   npm install mongodb
+   npm install cors
+   npm install mongoose
+   npm install body-parser
+
+### MongoDB Setup
+
+1. Download MongoDB Compass and MongoDB Shell to store the database:
+   - MongoDB Compass: https://www.mongodb.com/try/download/community
+   - MongoDB Shell: https://www.mongodb.com/try/download/shell
