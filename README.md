@@ -1,14 +1,4 @@
-# Video Preview of the Project
-
-[Watch the project video](https://raw.githubusercontent.com/Abishek-49/PayEase-App-MEAN-Stack.git/FrontEnd/PayEase-App/src/assets/PayEase-App.mp4)
-
-
-
 [SETUP]
-
-
-Uploading PayEase-App.mp4…
-
 
 [Front-End]
 Used Angular 15 for the frontend, First create a new angular project ng new front_End
